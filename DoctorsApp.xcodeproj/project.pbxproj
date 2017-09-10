@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2A89A71F6584A0003BBCB6 /* Unbox.framework in CarthageFrameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A21F6584A0003BBCB6 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E2A89A81F6584A0003BBCB6 /* Siesta.framework in CarthageFrameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A31F6584A0003BBCB6 /* Siesta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E2A89A91F6584A0003BBCB6 /* MBProgressHUD.framework in CarthageFrameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A41F6584A0003BBCB6 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E2A89AA1F6584A0003BBCB6 /* AlamofireImage.framework in CarthageFrameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A51F6584A0003BBCB6 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E2A89AB1F6584A0003BBCB6 /* Alamofire.framework in CarthageFrameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A61F6584A0003BBCB6 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0E96C5AA1F6332B50025CAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C5A91F6332B50025CAE7 /* AppDelegate.swift */; };
 		0E96C5AC1F6332B50025CAE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C5AB1F6332B50025CAE7 /* ViewController.swift */; };
 		0E96C5AF1F6332B50025CAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C5AD1F6332B50025CAE7 /* Main.storyboard */; };
 		0E96C5B11F6332B50025CAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C5B01F6332B50025CAE7 /* Assets.xcassets */; };
 		0E96C5B41F6332B50025CAE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C5B21F6332B50025CAE7 /* LaunchScreen.storyboard */; };
 		0E96C5BF1F6332B50025CAE7 /* DoctorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C5BE1F6332B50025CAE7 /* DoctorsAppTests.swift */; };
+		0EF036B31F6584D400F4CA81 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A21F6584A0003BBCB6 /* Unbox.framework */; };
+		0EF036B41F6584D400F4CA81 /* Siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A31F6584A0003BBCB6 /* Siesta.framework */; };
+		0EF036B51F6584D400F4CA81 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A41F6584A0003BBCB6 /* MBProgressHUD.framework */; };
+		0EF036B61F6584D400F4CA81 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A51F6584A0003BBCB6 /* AlamofireImage.framework */; };
+		0EF036B71F6584D400F4CA81 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2A89A61F6584A0003BBCB6 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +35,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0E5097061F6582F4005A5F69 /* CarthageFrameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0E2A89A71F6584A0003BBCB6 /* Unbox.framework in CarthageFrameworks */,
+				0E2A89A81F6584A0003BBCB6 /* Siesta.framework in CarthageFrameworks */,
+				0E2A89A91F6584A0003BBCB6 /* MBProgressHUD.framework in CarthageFrameworks */,
+				0E2A89AA1F6584A0003BBCB6 /* AlamofireImage.framework in CarthageFrameworks */,
+				0E2A89AB1F6584A0003BBCB6 /* Alamofire.framework in CarthageFrameworks */,
+			);
+			name = CarthageFrameworks;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E2A89A21F6584A0003BBCB6 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = ../Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
+		0E2A89A31F6584A0003BBCB6 /* Siesta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Siesta.framework; path = ../Carthage/Build/iOS/Siesta.framework; sourceTree = "<group>"; };
+		0E2A89A41F6584A0003BBCB6 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = ../Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
+		0E2A89A51F6584A0003BBCB6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = ../Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		0E2A89A61F6584A0003BBCB6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		0E96C5A61F6332B50025CAE7 /* DoctorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E96C5A91F6332B50025CAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E96C5AB1F6332B50025CAE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E96C5A91F6332B50025CAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
+		0E96C5AB1F6332B50025CAE7 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		0E96C5AE1F6332B50025CAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E96C5B01F6332B50025CAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E96C5B31F6332B50025CAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF036B31F6584D400F4CA81 /* Unbox.framework in Frameworks */,
+				0EF036B41F6584D400F4CA81 /* Siesta.framework in Frameworks */,
+				0EF036B51F6584D400F4CA81 /* MBProgressHUD.framework in Frameworks */,
+				0EF036B61F6584D400F4CA81 /* AlamofireImage.framework in Frameworks */,
+				0EF036B71F6584D400F4CA81 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2A89AC1F6584B3003BBCB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2A89A21F6584A0003BBCB6 /* Unbox.framework */,
+				0E2A89A31F6584A0003BBCB6 /* Siesta.framework */,
+				0E2A89A41F6584A0003BBCB6 /* MBProgressHUD.framework */,
+				0E2A89A51F6584A0003BBCB6 /* AlamofireImage.framework */,
+				0E2A89A61F6584A0003BBCB6 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0E96C59D1F6332B50025CAE7 = {
 			isa = PBXGroup;
 			children = (
 				0E96C5A81F6332B50025CAE7 /* DoctorsApp */,
 				0E96C5BD1F6332B50025CAE7 /* DoctorsAppTests */,
 				0E96C5A71F6332B50025CAE7 /* Products */,
+				0EF036B21F6584D400F4CA81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +134,7 @@
 				0E96C5B01F6332B50025CAE7 /* Assets.xcassets */,
 				0E96C5B21F6332B50025CAE7 /* LaunchScreen.storyboard */,
 				0E96C5B51F6332B50025CAE7 /* Info.plist */,
+				0E2A89AC1F6584B3003BBCB6 /* Frameworks */,
 			);
 			path = DoctorsApp;
 			sourceTree = "<group>";
@@ -96,6 +148,13 @@
 			path = DoctorsAppTests;
 			sourceTree = "<group>";
 		};
+		0EF036B21F6584D400F4CA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +165,7 @@
 				0E96C5A21F6332B50025CAE7 /* Sources */,
 				0E96C5A31F6332B50025CAE7 /* Frameworks */,
 				0E96C5A41F6332B50025CAE7 /* Resources */,
+				0E5097061F6582F4005A5F69 /* CarthageFrameworks */,
 			);
 			buildRules = (
 			);
@@ -354,6 +414,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DoctorsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = organization.DoctorsApp;
@@ -368,6 +432,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DoctorsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = organization.DoctorsApp;
