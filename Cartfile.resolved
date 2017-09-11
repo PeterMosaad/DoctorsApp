@@ -1,5 +1,5 @@
 github "Alamofire/Alamofire" "4.5.1"
 github "Alamofire/AlamofireImage" "3.3.0"
-github "bustoutsolutions/siesta" "1.2.1"
 github "jdg/MBProgressHUD" "1.0.0"
 github "johnsundell/unbox" "2.5.0"
+github "malcommac/SwiftLocation" "2.0.7"
